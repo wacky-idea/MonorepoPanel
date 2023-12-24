@@ -1,0 +1,20 @@
+{
+  "name": "monorepo-panel",
+  "private": true,
+  "version": "1.0.0",
+  "author": "aomd <g00665@163.com>",
+  "workspaces": [
+    "packages/**",
+    "website"
+  ],
+  "scripts": {
+    "clean": "lerna clean",
+    "build": "lerna run build --no-private",
+    "test": "lerna run test"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.0.1"
+  }
+}
